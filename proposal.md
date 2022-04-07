@@ -24,7 +24,7 @@ C. Write the codes to calculate the total time used on a long-term goal. After c
 
 ###### Week 2. 4.14~4.21
 
-A. Write codes of flaks to implement the above 3 functions
+A. Write codes of flaks to implement the above 3 functions/n
 B. Improve UI/UX of the website
 
 
