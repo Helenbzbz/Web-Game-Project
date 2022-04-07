@@ -17,29 +17,24 @@ I break down the project into the following tasks and allocate these tasks into 
 Since I chose to work alone, there is no collaboration plan.
 
 ###### Week 1. 4.7~4.14
-A. Write the codes for task list part
-B. Write the codes for saving schedule part. This part need one function to automatically generate the 2 hours interval for next 7 days and allows user to enter things to do for those times.
-C. Write the codes to calculate the total time used on a long-term goal. After clicking complete in the job list, the time will be added and saved.
+1. Write the codes for task list part
+2. Write the codes for saving schedule part. This part need one function to automatically generate the 2 hours interval for next 7 days and allows user to enter things to do for those times.
+3. Write the codes to calculate the total time used on a long-term goal. After clicking complete in the job list, the time will be added and saved.
 
 
 ###### Week 2. 4.14~4.21
-
-A. Write codes of flaks to implement the above 3 functions/n
-B. Improve UI/UX of the website
+1. Write codes of flaks to implement the above 3 functions/n
+2. Improve UI/UX of the website
 
 
 ###### Week 3. 4.21~4.28
-A. Improve the projects, preapre for demo session
-
-B. Add encouraging system
-
+1. Improve the projects, preapre for demo session
+2.Add encouraging system
 
 The following 3 things I need to learn during this weekend before I can start to work on the project:
-A. How to save inputs or data in a database so that next time when I open the website it still has the information I entered previously
-
-B. How to organize the website design to make it more userfriendly
-
-C. After clicking the button of 'Complete', how do I add the time for this task into the total time I spent in a corresponding category
+1. How to save inputs or data in a database so that next time when I open the website it still has the information I entered previously
+2. How to organize the website design to make it more userfriendly
+3. After clicking the button of 'Complete', how do I add the time for this task into the total time I spent in a corresponding category
 
 
 ## Risks
