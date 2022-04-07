@@ -30,12 +30,15 @@ B. Improve UI/UX of the website
 
 ###### Week 3. 4.21~4.28
 A. Improve the projects, preapre for demo session
+
 B. Add encouraging system
 
 
 The following 3 things I need to learn during this weekend before I can start to work on the project:
 A. How to save inputs or data in a database so that next time when I open the website it still has the information I entered previously
+
 B. How to organize the website design to make it more userfriendly
+
 C. After clicking the button of 'Complete', how do I add the time for this task into the total time I spent in a corresponding category
 
 
