@@ -31,7 +31,7 @@ def submit2():
         return render_template('Q2.html',prompt = Q2.prompt)
 
 # @app.route('/Q3',methods = ['GET','POST'])
-# def submit():
+# def submit3():
 #     if request.method == 'POST':
 #         f = open("result.txt", "a")
 #         f.write(request.form['option'])
