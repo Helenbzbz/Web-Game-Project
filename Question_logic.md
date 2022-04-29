@@ -55,14 +55,7 @@ Question 8. "BANG---" You just packed your bag and some zombies start to hit you
 3. Living Room Window -> Frontyard -> Back Street => (+ 18% days)
 4. Kitchen Windor -> Backyard -> Back Street => (+44% days)
 
-Question 9-1. You came to a crossroad intersections. (Map = True) You have the map, where do you want to go?
-[Show a graph]
-1. Direction 1
-2. Direction 2
-3. Direction 3
-4. Direction 4
-
-Question 9-2. You came to a crossroad intersections. (Map = False) You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?
+Question 9. You came to a crossroad intersections. You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?
 [Show a graph]
 1. Direction 1
 2. Direction 2

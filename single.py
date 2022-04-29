@@ -1,4 +1,4 @@
-# Question 1. 2. 3. 4. 6. 7.
+# Question 1. 2. 3. 4. 7. 8. 9. 10.
 # They give a question prompt, several options, each options it return an absolute value of score
 
 # Below are the answers and their corresponding values
@@ -36,17 +36,37 @@ Q4A = {
 }
 Q4K = {1:-10, 2:20}
 
-#Question Six.
-Q6P = 'Before you leave, you recall the memory about all the zombie fictions you read. How do you kill a zombie?'
-Q6A = {
-    'Burn it':1,
-    'Hit its heart or head with gun or other weapon':2,
-    'Use Salt':3,
-    'Headshot':4
-}
-Q6K = {1:15, 2:5, 3:-60, 4:40}
-
 #Question Seven.
+Q7P = 'There are several weapons at home, which one do you choose?'
+Q7A = {
+    'Gun':1,
+    'Chainsaw':2,
+    'Baseball Bat':3,
+    'Wrench':4
+}
+Q7K = {1:15, 2:10, 3:50, 4:-10}
+
+#Question Eight.
+Q7P = 'There are several weapons at home, which one do you choose?'
+Q7A = {
+    'Gun':1,
+    'Chainsaw':2,
+    'Baseball Bat':3,
+    'Wrench':4
+}
+Q7K = {1:15, 2:10, 3:50, 4:-10}
+
+#Question Nine.
+Q9P = 'You came to a crossroad intersections. You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?'
+Q9A = {
+    'Direction 1':1,
+    'Direction 2':2,
+    'Direction 3':3,
+    'Direction 4':4
+}
+Q9K = {1:15, 2:10, 3:50, 4:-10}
+
+#Question Ten.
 Q7P = 'There are several weapons at home, which one do you choose?'
 Q7A = {
     'Gun':1,

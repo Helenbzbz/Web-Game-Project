@@ -30,18 +30,25 @@ def submit2():
     else:
         return render_template('Q2.html',prompt = Q2.prompt)
 
-# @app.route('/Q3',methods = ['GET','POST'])
-# def submit3():
-#     if request.method == 'POST':
-#         f = open("result.txt", "a")
-#         f.write(request.form['option'])
-#         return redirect('/Q4')
-#     else:
-#         return render_template('Q3.html',prompt = Q3.prompt)
+@app.route('/Q3',methods = ['GET','POST'],endpoint = 'submit3')
+def submit3():
+    if request.method == 'POST':
+        f = open("result.txt", "a")
+        f.write('\n')
+        f.write(request.form['option'])
+        return redirect('/Q4')
+    else:
+        return render_template('Q3.html',prompt = Q3.prompt)
 
-# @app.route('/Q3',methods = ['GET','POST'])
-# def submit():
-#     21
+@app.route('/Q4',methods = ['GET','POST'],endpoint = 'submit4')
+def submit4():
+    if request.method == 'POST':
+        f = open("result.txt", "a")
+        f.write('\n')
+        f.write(request.form['option'])
+        return redirect('/Q5')
+    else:
+        return render_template('Q4.html',prompt = Q4.prompt)
 
 if __name__ == "__main__":
     app.run()
