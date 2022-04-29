@@ -1,4 +1,5 @@
-from single import Q1,Q2,Q3,Q4,Q6,Q7
+from single import Q1,Q2,Q3,Q4,Q8,Q9,Q10,Q11
+from multiple import Q5, Q6, Q7
 from flask import Flask, request, render_template, redirect
 print(Q1.score('Try to seperate that gril and the person she is attacking'))
 
@@ -49,6 +50,16 @@ def submit4():
         return redirect('/Q5')
     else:
         return render_template('Q4.html',prompt = Q4.prompt)
+
+@app.route('/Q5',methods = ['GET','POST'],endpoint = 'submit5')
+def submit5():
+    if request.method == 'POST':
+        f = open("result.txt", "a")
+        f.write('\n')
+        f.write(request.form.getlist('mycheckbox'))
+    else:
+        return render_template('Q5.html',prompt = Q5.prompt)
+
 
 if __name__ == "__main__":
     app.run()

@@ -43,26 +43,35 @@ Question 6. Before you leave, you recall the memory about all the zombie fiction
 3. Use Salt => (-60 days)
 4. Headshot => (+40 days)
 
-Question 7. There are several weapons at home, which one do you choose?
+Question 7. Great. And what are the characteristics of zombies?
+1. They walk slow => (+15 days)
+2. They may or may not have sights => (+15 days)
+3. They attack human and feed on human => (+15 days)
+4. They only appear at night => (-15 days)
+5. They can think => (-15 days)
+6. They look different from human => (+15 days)
+
+Question 8. There are several weapons at home, which one do you choose?
 1. Gun => (+15 days)
 2. Chainsaw => (+10 days)
 3. Baseball Bat => (+50 days)
 4. Wrench => (-10 days)
 
-Question 8. "BANG---" You just packed your bag and some zombies start to hit your front door. You know the door can't stand long. You Have to leave RIGHT NOW! But how?
+Question 9. "BANG---" You just packed your bag and some zombies start to hit your front door. You know the door can't stand long. You Have to leave RIGHT NOW! But how?
+[Show a graph]
 1. Living Room Window -> Frontyard -> Front Street => (-66% days)
 2. Kitchen Windor -> Backyard -> Front Street => (-38% days)
 3. Living Room Window -> Frontyard -> Back Street => (+ 18% days)
 4. Kitchen Windor -> Backyard -> Back Street => (+44% days)
 
-Question 9. You came to a crossroad intersections. You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?
+Question 10. You came to a crossroad intersections. You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?
 [Show a graph]
 1. Direction 1
 2. Direction 2
 3. Direction 3
 4. Direction 4
 
-Question 10. Now, let's plan for the long term. What is your first priority? (I want to make this into a ranking question. I will leave it as single choice first and if I have time later I will go back and change this one)
+Question 11. Now, let's plan for the long term. What is your first priority? (I want to make this into a ranking question. I will leave it as single choice first and if I have time later I will go back and change this one)
 1. Collect Food and other resources => (+20%)
 2. Find a vehicle => (+30%)
 3. Look for shelter => (+5%)

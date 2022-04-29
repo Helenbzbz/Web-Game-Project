@@ -1,4 +1,4 @@
-# Question 1. 2. 3. 4. 7. 8. 9. 10.
+# Question 1. 2. 3. 4. 8. 9. 10.
 # They give a question prompt, several options, each options it return an absolute value of score
 
 # Below are the answers and their corresponding values
@@ -36,47 +36,47 @@ Q4A = {
 }
 Q4K = {1:-10, 2:20}
 
-#Question Seven.
-Q7P = 'There are several weapons at home, which one do you choose?'
-Q7A = {
-    'Gun':1,
-    'Chainsaw':2,
-    'Baseball Bat':3,
-    'Wrench':4
-}
-Q7K = {1:15, 2:10, 3:50, 4:-10}
-
 #Question Eight.
-Q7P = 'There are several weapons at home, which one do you choose?'
-Q7A = {
+Q8P = 'There are several weapons at home, which one do you choose?'
+Q8A = {
     'Gun':1,
     'Chainsaw':2,
     'Baseball Bat':3,
     'Wrench':4
 }
-Q7K = {1:15, 2:10, 3:50, 4:-10}
+Q8K = {1:15, 2:10, 3:50, 4:-10}
 
 #Question Nine.
-Q9P = 'You came to a crossroad intersections. You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?'
+Q9P = '"BANG---" You just packed your bag and some zombies start to hit your front door. You know the door can\'t stand long. You Have to leave RIGHT NOW! But how?'
 Q9A = {
+    'Living Room Window -> Frontyard -> Front Street':1,
+    'Kitchen Windor -> Backyard -> Front Street':2,
+    'Living Room Window -> Frontyard -> Back Street':3,
+    'Kitchen Windor -> Backyard -> Back Street':4
+}
+Q9K = {1:-0.66, 2:-0.38, 3:0.18, 4:-0.44}
+
+#Question Ten.
+Q10P = 'You came to a crossroad intersections. You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?'
+Q10A = {
     'Direction 1':1,
     'Direction 2':2,
     'Direction 3':3,
     'Direction 4':4
 }
-Q9K = {1:15, 2:10, 3:50, 4:-10}
+Q10K = {1:-40, 2:-30, 3:30, 4:5}
 
-#Question Ten.
-Q7P = 'There are several weapons at home, which one do you choose?'
-Q7A = {
-    'Gun':1,
-    'Chainsaw':2,
-    'Baseball Bat':3,
-    'Wrench':4
+#Question Eleven.
+Q11P = 'Now, let\'s plan for the long term. What is your first priority?'
+Q11A = {
+    'Collect Food and other resources':1,
+    'Find a vehicle':2,
+    'Look for shelter':3,
+    'Look for other survivors':4
 }
-Q7K = {1:15, 2:10, 3:50, 4:-10}
+Q11K = {1:0.2, 2:0.3, 3:0.05, 4:0.1}
 
-class abssingle:
+class single:
     """Single questions"""
     
     def __init__(self, prompt, answers,answer_key):
@@ -88,9 +88,11 @@ class abssingle:
     def score(self,option):
         return self.answer_key[self.answers[option]]
 
-Q1 = abssingle(Q1P,Q1A,Q1K)
-Q2 = abssingle(Q2P,Q2A,Q2K)
-Q3 = abssingle(Q3P,Q3A,Q3K)
-Q4 = abssingle(Q4P,Q4A,Q4K)
-Q6 = abssingle(Q6P,Q6A,Q6K)
-Q7 = abssingle(Q7P,Q7A,Q7K)
+Q1 = single(Q1P,Q1A,Q1K)
+Q2 = single(Q2P,Q2A,Q2K)
+Q3 = single(Q3P,Q3A,Q3K)
+Q4 = single(Q4P,Q4A,Q4K)
+Q8 = single(Q8P,Q8A,Q8K)
+Q9 = single(Q9P,Q9A,Q9K)
+Q10 = single(Q10P,Q10A,Q10K)
+Q11 = single(Q11P,Q11A,Q11K)
