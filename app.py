@@ -34,7 +34,7 @@ def submit2():
 @app.route('/Q3',methods = ['GET','POST'],endpoint = 'submit3')
 def submit3():
     if request.method == 'POST':
-        f = open("result.txt", "a")
+        f = open("result.txt", "a+")
         f.write('\n')
         f.write(request.form['option'])
         return redirect('/Q4')
@@ -53,12 +53,7 @@ def submit4():
 
 @app.route('/Q5',methods = ['GET','POST'],endpoint = 'submit5')
 def submit5():
-    if request.method == 'POST':
-        f = open("result.txt", "a")
-        f.write('\n')
-        f.write(request.form.getlist('mycheckbox'))
-    else:
-        return render_template('Q5.html',prompt = Q5.prompt)
+    return render_template('Q5.html',prompt = Q5.prompt)
 
 
 if __name__ == "__main__":
