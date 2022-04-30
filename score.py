@@ -19,8 +19,7 @@ def score():
     k = Q11.score(words[10].strip())
     days = int(((a+b+c+d+e+f+g+h)*(1+i)+j)*(1+k))
     return days
-score()
-
+    
 def day_year(a):
     year = int(a/365)
     day = a%365
