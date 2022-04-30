@@ -1,7 +1,7 @@
 from single import Q1,Q2,Q3,Q4,Q8,Q9,Q10,Q11
 from multiple import Q5, Q6, Q7
 from flask import Flask, request, render_template, redirect
-print(Q1.score('Try to seperate that gril and the person she is attacking'))
+from score import score, day_year, category
 
 app = Flask(__name__)
 
@@ -55,13 +55,23 @@ def submit4():
 def submit5():
     if request.method == 'POST':
         l = request.form.getlist('mycheckbox')
-        result = ','.join(l)
-        f = open("result.txt", "a")
-        f.write('\n')
-        f.write(result)
-        return redirect('/Q6')
+        if len(l) > 4:
+            return redirect('/error')
+        else:
+            result = ','.join(l)
+            f = open("result.txt", "a")
+            f.write('\n')
+            f.write(result)
+            return redirect('/Q6')
     else:
         return render_template('Q5.html',prompt = Q5.prompt)
+
+@app.route('/error',methods = ['GET','POST'],endpoint = 'error')
+def error():
+    if request.method == 'POST':
+        return redirect('/Q5')
+    else:
+        return render_template('error.html')
 
 @app.route('/Q6',methods = ['GET','POST'],endpoint = 'submit6')
 def submit6():
@@ -126,6 +136,14 @@ def submit11():
         return redirect('/result')
     else:
         return render_template('Q11.html',prompt = Q11.prompt)
+
+@app.route('/result',methods = ['GET','POST'],endpoint = 'result')
+def result():
+    if request.method == 'POST':
+        return redirect('/')
+    else:
+        s = score()
+        return render_template('Result.html',time = day_year(s),category = category(s))
 
 if __name__ == "__main__":
     app.run()

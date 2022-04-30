@@ -54,7 +54,7 @@ Q9A = {
     'Living Room Window -> Frontyard -> Back Street':3,
     'Kitchen Windor -> Backyard -> Back Street':4
 }
-Q9K = {1:-0.66, 2:-0.38, 3:0.18, 4:-0.44}
+Q9K = {1:-0.22, 2:-0.08, 3:0.18, 4:-0.11}
 
 #Question Ten.
 Q10P = 'You came to a crossroad intersections. You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?'
@@ -64,7 +64,7 @@ Q10A = {
     'Direction 3':3,
     'Direction 4':4
 }
-Q10K = {1:-40, 2:-30, 3:30, 4:5}
+Q10K = {1:-20, 2:-10, 3:30, 4:5}
 
 #Question Eleven.
 Q11P = 'Now, let\'s plan for the long term. What is your first priority?'

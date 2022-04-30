@@ -15,7 +15,7 @@ Q5A = {
     'A bottle of vodka':8,
     'Map':9
 }
-Q5K = {1:30, 2:10, 3:20, 4:30, 5:-10, 6:30, 7:20, 8:15, 9:40}
+Q5K = {1:30, 2:10, 3:20, 4:30, 5:-10, 6:30, 7:20, 8:15, 9:20}
 
 #Question Six.
 Q6P = 'Before you leave, you recall the memory about all the zombie fictions you read. How do you kill a zombie?'
@@ -25,7 +25,7 @@ Q6A = {
     'Use Salt':3,
     'Headshot':4
 }
-Q6K = {1:15, 2:5, 3:-60, 4:40}
+Q6K = {1:15, 2:5, 3:-30, 4:40}
 
 #Question Seven.
 Q7P = 'Great. And what are the characteristics of zombies?'
@@ -37,7 +37,7 @@ Q7A = {
     'They can think':5,
     'They look different from human':6
 }
-Q7K = {1:15, 2:10, 3:50, 4:-10}
+Q7K = {1:15, 2:15, 3:15, 4:-15, 5:-15, 6:15}
 
 class multiple:
     """multiple questions"""
