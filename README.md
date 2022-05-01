@@ -15,6 +15,8 @@ The purpose of this project is to create an interactive word games utilizing htm
 2. 🧚‍♀️ Open and Launch this file: https://github.com/Helenbzbz/Team-Project/blob/main/app.py
 3. 🙋‍♀️ Open the local host in your broswer and you can start to play this game!
 
+👉Still Confused? See this demo: 
+
 ### Function fulfilled/Not Fullfilled
 * 🙆‍♀️ Fullfilled: Radio selection (question with single choice)
 * 🙆‍♀️ Fullfilled: Checkbox selection (question with more than 1 choices) => Restrict the upper limit of choices, once exceeds, the page will be redirected

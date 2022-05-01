@@ -1,11 +1,11 @@
 Run back to your home
-15 minute route but has to cut across the cafeteria
-Gather all the food and bottled waters
-Stay at home and wait for help
-3 Bottles of water,4 Slices of toasts,Basic medicines,Map
-Hit its heart or head with gun or other weapon
-They walk slow,They may or may not have sights,They only appear at night,They look different from human
+22 minute trail cross a chuck of forest which will lead you to your backyard
+Find a weapon
+Leave your home
+3 Bottles of water,4 Slices of toasts,N95 face masks,Map
+Burn it,Hit its heart or head with gun or other weapon
+They walk slow,They may or may not have sights,They only appear at night,They can think
 Baseball Bat
-Kitchen Windor -> Backyard -> Front Street
-Direction 1
-Look for shelter
+Living Room Window -> Frontyard -> Front Street
+Direction 3
+Find a vehicle
