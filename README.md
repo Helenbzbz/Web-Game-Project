@@ -15,7 +15,7 @@ The purpose of this project is to create an interactive word games utilizing htm
 2. 🧚‍♀️ Open and Launch this file: https://github.com/Helenbzbz/Team-Project/blob/main/app.py
 3. 🙋‍♀️ Open the local host in your broswer and you can start to play this game!
 
-👉 Still Confused? Downloadn and watch this demo: https://github.com/Helenbzbz/Team-Project/blob/main/How%20to%20play.mov
+👉 Still Confused? Download and watch this demo: https://github.com/Helenbzbz/Team-Project/blob/main/How%20to%20play.mov
 
 ### Function fulfilled/Not Fullfilled
 * 🙆‍♀️ Fullfilled: Radio selection (question with single choice)
