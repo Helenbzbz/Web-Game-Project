@@ -1,2 +1,6 @@
 # Team-Project
-Proposal: https://github.com/Helenbzbz/Team-Project/blob/main/proposal.md
+
+The purpose of this project is to create an interactive word games by using html and flask.
+
+👉Here is my proposal: 
+
