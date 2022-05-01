@@ -27,5 +27,5 @@ The purpose of this project is to create an interactive word games utilizing htm
 3. Besides, I feel this project may be too repetitative that there are certain function I believe can be simplified by adding one variable instead of writing 13 html templates. That's also the same way I felt for writing app route. 
 
 ### Contact & Project folder link
-Contact: jzheng3@babson.edu
-Folder Link: https://github.com/Helenbzbz/Team-Project
+* Contact: jzheng3@babson.edu
+* Folder Link: https://github.com/Helenbzbz/Team-Project
