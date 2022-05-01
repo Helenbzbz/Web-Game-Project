@@ -57,7 +57,7 @@ Q9A = {
 Q9K = {1:-0.22, 2:-0.08, 3:0.18, 4:-0.11}
 
 #Question Ten.
-Q10P = 'You came to a crossroad intersections. You quickly glance over all the four directions you can go and saw a human figure in each direction. Where do you want to go?'
+Q10P = 'You came to a crossroad intersections. Which way should you go?'
 Q10A = {
     'Direction 1':1,
     'Direction 2':2,

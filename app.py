@@ -1,3 +1,4 @@
+from http.client import BAD_REQUEST
 from single import Q1,Q2,Q3,Q4,Q8,Q9,Q10,Q11
 from multiple import Q5, Q6, Q7
 from flask import Flask, request, render_template, redirect
@@ -125,7 +126,12 @@ def submit10():
         f.write(request.form['option'])
         return redirect('/Q11')
     else:
-        return render_template('Q10.html',prompt = Q10.prompt)
+        f = open("result.txt")
+        words = f.readlines()
+        if 'Map' in words[4]:
+            return render_template('Q10.html',prompt = Q10.prompt,map = '"Ah. I have a map." You opened the map and found out following direction 3, you will not pass any school, shopping malls, or populated neighborhoods.')
+        else:
+            return render_template('Q10.html',prompt = Q10.prompt,map = 'You don\'t have a map. That\'t really unfortunate. Just take a guess.')
 
 @app.route('/Q11',methods = ['GET','POST'],endpoint = 'submit11')
 def submit11():

@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q10</title>
+    <style>
+        h1{font-size: 20px;}
+        </style>
 </head>
     <body>
-    <p>{{prompt}}</p>
-    <img src="/Photo.jpg"></img>
+    <div style="margin:50px">
+    <h1>{{prompt}}</h1>
+    <h1>{{map}}</h1>
     <form action = "" method="post">
         <input type ="radio" name="option" value = "Direction 1">Direction 1
         <br><br>
@@ -18,7 +22,8 @@
         <br><br>
         <input type ="radio" name="option" value = "Direction 4">Direction 4
         <br><br>
-        <input type = 'submit' name='submitform' value = 'Next Question'>
+        <input type = 'submit' name='submitform' value = 'This should work.' style="font-size: 120px;color: red;">
     </form>
+    </div>
     </body>
 </html>
