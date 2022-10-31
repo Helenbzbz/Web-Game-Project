@@ -1,4 +1,4 @@
-# Team-Project
+# Web-Game-Projetct
 
 ### About this project
 The purpose of this project is to create an interactive word games utilizing html and flask. By answering just 11 questions, the website will tell you how long you can survive when zombie 🧟‍♂️ attacks the town you lived.
