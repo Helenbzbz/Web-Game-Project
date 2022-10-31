@@ -11,7 +11,7 @@ The purpose of this project is to create an interactive word games utilizing htm
 * 🤸‍♀️ Class (I defined two class for two types of questions: single and multiple)
 
 ### How to launch this game
-1. 🧜‍♀️ Clone the whole folder 'Team-Project'
+1. 🧜‍♀️ Clone the whole folder 'Web-Game-Project': https://github.com/Helenbzbz/Web-Game-Project
 2. 🧚‍♀️ Open and Launch this file: https://github.com/Helenbzbz/Team-Project/blob/main/app.py
 3. 🙋‍♀️ Open the local host in your broswer and you can start to play this game!
 
