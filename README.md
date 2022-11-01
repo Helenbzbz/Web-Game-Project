@@ -30,4 +30,5 @@ The purpose of this project is to create an interactive word games utilizing htm
 
 ### Contact & Project folder link
 * Contact: jzheng3@babson.edu
-* Folder Link: https://github.com/Helenbzbz/Team-Project
+* Folder Link: [https://github.com/Helenbzbz/Team-Project
+](https://github.com/Helenbzbz/Web-Game-Project)
