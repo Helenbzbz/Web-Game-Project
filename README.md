@@ -3,7 +3,7 @@
 ### About this project
 The purpose of this project is to create an interactive word games utilizing html and flask. By answering just 11 questions, the website will tell you how long you can survive when zombie 🧟‍♂️ attacks the town you lived.
 
-👉 Here is my proposal: https://github.com/Helenbzbz/Team-Project/blob/main/proposal%20pivoted.md
+👉 Here is my proposal: https://github.com/Helenbzbz/Web-Game-Project/blob/main/proposal.md
 
 ### Skills utilized
 * 🏃‍♀️ Flask app (redirect, render_template)
